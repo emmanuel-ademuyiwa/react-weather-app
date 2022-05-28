@@ -1,0 +1,19 @@
+.App { 
+    max-width: 300px;
+    margin: 10px auto;
+    overflow: auto;
+    height: 100vh;
+    //border-radius: 30px;
+    padding: 0 25px 10px 10px;
+    background-image: linear-gradient(rgba(65, 98, 248, 0.1),rgba(116, 125, 159, 0.2)),url(../img/bg1.jpg);
+    box-shadow: 7px 10px 31px 5px rgba(166, 195, 244, 0.17);
+    text-align: center;
+    font-weight: 300;
+    transition: 0.4 ease-out ;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.App.warm { 
+    background-image: linear-gradient(rgba(65, 98, 248, 0.1),rgba(116, 125, 159, 0.2)),url(../img/bg.jpg);
+}
